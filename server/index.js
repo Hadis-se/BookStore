@@ -34,5 +34,5 @@ app.get('/dashboard', async (req, res) => {
 })
  
 app.listen(process.env.PORT, () => {
-    console.log("Serve is Running");
+    console.log("Server is Running");
 })
